@@ -52,7 +52,7 @@ Note that the original review is pre processed and hence are not perfect english
 <a href="https://github.com/yasharma2301/DeepLearningProjects/blob/master/Text%20Summarizer/TextSummarizer.ipynb">Link to .ipynb notebook</a>.
 
 ## 3. Digit Recognizer using CNN
-A digit recogniser based using CNN; The architecture consists of 2 Cov2D layers which 64 and 32 filters respectively which  creates a convolution kernel that is wind with layers input which helps produce a tensor of outputs. kernel size of 3 is used with a maxPoolingLayer to reduce the spatial dimensions of the output volume. Finally a Flatten layer is applied.
+A digit recogniser based using CNN; The architecture consists of 2 Cov2D layers with 64 and 32 filters respectively which  creates a convolution kernel that is wind with layers input which helps produce a tensor of outputs. kernel size of 3 is used with a maxPoolingLayer to reduce the spatial dimensions of the output volume. Finally a Flatten layer is applied.
 
 Moreover callbacks such as ReduceROnPlateau and Early Stopping are used. ReduceROnPlateau essentially means reducing the learning rate when the metric has stopped improving.
 <a href="https://www.kaggle.com/c/digit-recognizer">Link to dataset</a>.
